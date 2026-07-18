@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .landing-page {
   position: relative;
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
+  overflow: hidden;
   background-color: #f8f8f8;
 }
 
@@ -37,19 +37,20 @@
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
-  transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
-  /* background-color: red; */
   width: 400px;
-  height: 400px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+}
+
+.aboutus_container {
+  width: 45%;
+  /* margin: auto; */
+  color: white;
 }
 
 .content p,
